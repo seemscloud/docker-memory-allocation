@@ -1,0 +1,8 @@
+version: '3.9'
+
+services:
+  allocation:
+    container_name: allocation
+    hostname: allocation
+    build:
+      context: ./allocation
